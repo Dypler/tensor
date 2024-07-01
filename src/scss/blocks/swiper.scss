@@ -1,0 +1,50 @@
+.my-swiper-button-next,
+.my-swiper-button-prev,
+.my-swiper-button-next-2,
+.my-swiper-button-prev-2 {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-00%);
+    z-index: 10;
+    /* Обеспечить отображение кнопок поверх слайдов */
+    cursor: pointer;
+}
+
+.my-swiper-button-next,
+.my-swiper-button-next-2 {
+    right: -5%;
+    /* Позиционирование справа */
+    background-image: url('/right.svg');
+}
+
+.my-swiper-button-prev,
+.my-swiper-button-prev-2 {
+    left: -5%;
+    /* Позиционирование слева */
+    background-image: url('/left.svg');
+}
+
+.my-swiper-button-next:hover,
+.my-swiper-button-prev:hover {
+    opacity: 0.8;
+}
+
+.my-swiper-button-next:active,
+.my-swiper-button-prev:active {
+    opacity: 0.6;
+}
+
+.swiper-button-lock {
+    display: block !important;
+}
+
+// .swiper__two {
+//     .swiper-slide {
+//         max-width: 368px;
+//     }
+// }

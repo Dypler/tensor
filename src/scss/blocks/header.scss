@@ -1,0 +1,50 @@
+.header {
+    position: fixed;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    transition: all .3s ease;
+
+    &__menu {
+        position: relative;
+        padding: 20px 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+
+        &:after {
+            max-width: 1296px;
+            margin: 0 auto;
+            width: 100%;
+            content: '';
+            border-radius: 20px;
+            opacity: 0.5;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            position: absolute;
+            z-index: -1;
+            background: var(--orange);
+        }
+    }
+
+    &__item {
+        font-weight: 600;
+        font-size: 20px;
+        text-transform: uppercase;
+        text-align: center;
+        color: var(--orange-light);
+        cursor: pointer;
+
+        &:hover {
+            color: var(--dark-2);
+        }
+    }
+}
+
+.header.hide {
+    top: -101px;
+}

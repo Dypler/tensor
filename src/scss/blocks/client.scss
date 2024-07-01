@@ -1,0 +1,19 @@
+.client {
+    position: relative;
+    padding: 37px 0;
+    background: var(--dark-2);
+
+    &__wrapper {
+        margin-top: 48px;
+        display: flex !important;
+        align-items: center;
+
+    }
+
+    &__item {
+        width: 100%;
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+    }
+}
