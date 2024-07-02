@@ -45,6 +45,28 @@
     }
 }
 
+.header__menu li {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+
+.header__menu li:not(:last-child)::after {
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    right: -30px;
+    width: 6px;
+    height: 6px;
+    background-color: var(--orange-light);
+}
+
+.header__menu li:nth-child(3)::after,
+.header__menu li:nth-child(4)::after {
+    content: none;
+}
+
 .header.hide {
     top: -101px;
 }

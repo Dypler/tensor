@@ -1,71 +1,35 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/main/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <meta name="description" content="Изделия из дерева на заказ с доставкой по России">
+    <title>Струга</title>
   </head>
   <body>
     <header class="header">
       <div class="container">
         <ul class="header__menu">
-          <a href="#about"  class="header__item">О нас</a>
-          <a href="#catalog" class="header__item">Каталог</a>
-          <a href="#reviews" class="header__item">Отзывы</a>
-
-          <a href="#main"><img src="/logo.svg" alt=""></a>
-          <a href="#delivery" class="header__item">Оплата и доставка</a>
-          <a  href="#contacts" class="header__item">Контакты</a>
+          <li><a href="#about" class="header__item">О нас</a></li>
+          <li><a href="#catalog" class="header__item">Каталог</a></li>
+          <li><a href="#reviews" class="header__item">Отзывы</a></li>
+          <li><a href="#main"><img src="/main/logo.svg" alt="Логотип"></a></li>
+          <li><a href="#delivery" class="header__item">Оплата и доставка</a></li>
+          <li><a href="#contacts" class="header__item">Контакты</a></li>
         </ul>
       </div>
     </header>
     <main>
       <section class="main" id="main">
         <div class="svg">
-          <svg
-          class="circles "
-          width="100%"
-          height="100%"
-          viewBox="0 0 1400 1400"
-          fill="white"
-          opacity="0.2"
-        >
-          <defs>
-            <path id="circle-1" d="M250,700.5A450.5,450.5 0 1 11151,700.5A450.5,450.5 0 1 1250,700.5" />
-            <path id="circle-2" d="M382,700.5A318.5,318.5 0 1 11019,700.5A318.5,318.5 0 1 1382,700.5" />
-            <path id="circle-3" d="M487,700.5A213.5,213.5 0 1 1914,700.5A213.5,213.5 0 1 1487,700.5" />
-            <path id="circle-4" d="M567.5,700.5A133,133 0 1 1833.5,700.5A133,133 0 1 1567.5,700.5" />
-          </defs>
-          <text class="circles__text ">
-            <textPath
-              xlink:href="#circle-1"
-              startOffset="0%"
-              method="stretch"
-              spacing="auto"
-              textLength="2830"
-            >
-              краткое видео нашей мастерской»&nbsp;
-            </textPath>
-          </text>
-        </svg>
-        <svg class="circles__play" width="71" height="73" viewBox="0 0 71 73" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <mask id="mask0_17_5950" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="71" height="73">
-            <path d="M36.5 72.5L12 49L8.5 56V58L8 59L7.5 59.5H6.5L5.5 58.5L0 49V29.5L12 9.5L43.5 0.5L46 6L47.5 7L48 8.5L47.5 9L46 10L43.5 10.8185V19.5L71 42.5L62 63.5L36.5 72.5Z" fill="#D9D9D9" />
-          </mask>
-          <g mask="url(#mask0_17_5950)">
-            <circle cx="43.4946" cy="46.4126" r="38.5" stroke="#F5E2C3" stroke-width="3" />
-            <path d="M60.4946 44.6805C61.828 45.4503 61.828 47.3748 60.4946 48.1446L36.4946 62.0011C35.1613 62.7709 33.4946 61.8086 33.4946 60.269V32.5562C33.4946 31.0166 35.1613 30.0543 36.4946 30.8241L60.4946 44.6805Z" fill="#F5E2C3" />
-          </g>
-        </svg>
         </div>
-        
         <div class="container">
           <h1 class="main__title">Изделия из дерева на заказ
             с доставкой по России</h1>
           <p class="main__subtitle">Cтиль и уют деревянных аксессуаров
               в ваш дом, ресторан или кафе</p>
-          <a class="main__link" href="">Перейти в каталог</a>  
+          <a class="main__link" href="#">Перейти в каталог</a>  
           <div class="main__wrapper">
               <p class="main__item"><span>14</span> лет опыта</p>
               <p class="main__item"><span>12 000</span> изделий изготовлено</p>
@@ -84,7 +48,7 @@
                 <span>и интерьер</span> </p>
             </div>
             <div class="catalog__item">
-              <img src="/catalog__2.png" alt="">
+              <img src="/main/catalog__2.png" alt="">
               <p class="catalog__dscr">Доски
                 <span>сервировочные</span> </p>
             </div>
@@ -120,8 +84,8 @@
               <p>История мастерской Struga началась в 2010 году с хобби — изготовление оригинальных фоторамок из состаренных сосновых дощечек на подарки для друзей. Начиная с 2015 столярная мастерская уже становится основным занятием, приносящим заработок. В процессе работы и творчества осваивались новые технологии, приемы и инструменты.   Пробовали изготавливать разделочные доски, тарелки, шкатулки, светильники. Со временем мастерская Struga обзавелась своим помещением и серьезным арсеналом станков и инструментов, преобразовалась во вполне удачный коммерческий проект с интересными работами. </p>
             </div>
             <div class="about__photo">
-              <img class="about__img" src="/about/about_1.png" alt="">
-              <img class="about__img" src="/about/about_2.png">
+              <img class="about__img" src="/main/about/about_1.png" alt="О мастерской 1">
+              <img class="about__img" src="/main/about/about_2.png" alt="О мастерской 2">
             </div>
           </div>
         </div>
@@ -132,22 +96,22 @@
           <div id="swiper1" class="swiper" >
             <div class="swiper-wrapper client__wrapper ">
               <div class="client__item swiper-slide">
-                <img src="/client/client_1.png" alt="">
+                <img src="/main/client/client_1.png" alt="Клиент 1">
               </div>
               <div class="client__item swiper-slide">
-                <img src="/client/client_2.png" alt="">
+                <img src="/main/client/client_2.png" alt="Клиент 2">
               </div>
               <div class="client__item swiper-slide">
-                <img src="/client/client_3.png" alt="">
+                <img src="/main/client/client_3.png" alt="Клиент 3">
               </div>
               <div class="client__item swiper-slide">
-                <img src="/client/client_4.png" alt="">
+                <img src="/main/client/client_4.png" alt="Клиент 4">
               </div>
               <div class="client__item swiper-slide">
-                <img src="/client/client_5.png" alt="">
+                <img src="/main/client/client_5.png" alt="Клиент 5">
               </div>
               <div class="client__item swiper-slide">
-                <img src="/client/client_1.png" alt="">
+                <img src="/main/client/client_1.png" alt="Клиент 1">
               </div>
             </div>
             
@@ -162,10 +126,10 @@
           <div id="swiper2" class="swiper" >
             <div class="swiper-wrapper reviews__wrapper ">
               <div class="reviews__item swiper-slide">
-                <img class="reviews__stars" src="/stars.svg" alt="">
+                <img class="reviews__stars" src="/main/stars.svg" alt="Оценка">
                 <p class="reviews__text">Будем лаконичны — мы довольны совместными результатами с компанией Struga.pro и собираемся дальше продолжить нашу продуктивную работу.</p>
                 <div class="reviews__author">
-                  <img src="/author.png" alt="">
+                  <img src="/main/author.png" alt="Автор">
                   <div>
                     <p class="reviews__name">Иванов Иван</p>
                     <p class="reviews__position">Директор Music Hall</p>
@@ -173,10 +137,10 @@
                 </div>
               </div>
               <div class="reviews__item swiper-slide">
-                <img class="reviews__stars" src="/stars.svg" alt="">
+                <img class="reviews__stars" src="/main/stars.svg" alt="Оценка 2">
                 <p class="reviews__text">Будем лаконичны — мы довольны совместными результатами с компанией Struga.pro</p>
                 <div class="reviews__author">
-                  <img src="/author.png" alt="">
+                  <img src="/main/author.png" alt="Автор 2">
                   <div>
                     <p class="reviews__name">Алексей Ловков</p>
                     <p class="reviews__position">Владелец “Сыровар Ловков”</p>
@@ -184,10 +148,10 @@
                 </div>
               </div>
               <div class="reviews__item swiper-slide">
-                <img class="reviews__stars" src="/stars.svg" alt="">
+                <img class="reviews__stars" src="/main/stars.svg" alt="Оценка 3">
                 <p class="reviews__text">Будем лаконичны — мы довольны совместными результатами с компанией Struga.pro и собираемся дальше продолжить нашу продуктивную работу.</p>
                 <div class="reviews__author">
-                  <img src="/author.png" alt="">
+                  <img src="/main/author.png" alt="Автор 3">
                   <div>
                     <p class="reviews__name">Сергей Сергеев</p>
                     <p class="reviews__position">Владелец “ELIO PIZZA”</p>
@@ -195,10 +159,10 @@
                 </div>
               </div>
               <div class="reviews__item swiper-slide">
-                <img class="reviews__stars" src="/stars.svg" alt="">
+                <img class="reviews__stars" src="/main/stars.svg" alt="Оценка 4">
                 <p class="reviews__text">Будем лаконичны — мы довольны совместными результатами с компанией Struga.pro и собираемся дальше продолжить нашу продуктивную работу.</p>
                 <div class="reviews__author">
-                  <img src="/author.png" alt="">
+                  <img src="/main/author.png" alt="Автор 4">
                   <div>
                     <p class="reviews__name">Сергей Сергеев</p>
                     <p class="reviews__position">Владелец “ELIO PIZZA”</p>
@@ -216,6 +180,6 @@
 
       </section>
     </main>
-    <script type="module" src="../src/js/main.js"></script>
+    <script type="module" src="./src/js/main.js"></script>
   </body>
 </html>

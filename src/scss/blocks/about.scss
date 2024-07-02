@@ -40,14 +40,12 @@
         &:nth-child(2) {
             top: 0;
             left: 15%;
-            /* Обеспечить правильное позиционирование */
             transform: rotate(5deg);
         }
 
         &:nth-child(1) {
             bottom: 0;
             left: 0;
-            /* Обеспечить правильное позиционирование */
             transform: rotate(-5deg);
         }
     }

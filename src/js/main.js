@@ -1,21 +1,12 @@
 import '../scss/style.scss';
 
 import './modules/swiper'
+import './modules/svg'
+import './modules/header'
 
-
-var header = document.querySelector(".header");
-var navbarHeight = header.offsetHeight;
-var lastScrollTop = 0;
-
-window.onscroll = function () { scrollHide() };
-
-function scrollHide() {
-    var st = window.pageYOffset || document.documentElement.scrollTop;
-    console.log(st);
-    if (st > lastScrollTop) {
-        header.classList.add('hide');
-    } else {
-        header.classList.remove('hide');
-    }
-    lastScrollTop = st <= 0 ? 0 : st;
+function disableSmoothScroll() {
+    const htmlElement = document.documentElement;
+    htmlElement.style.scrollBehavior = 'auto';
+    window.scrollTo(0, 0); // Scroll to top without smooth behavior
+    htmlElement.style.scrollBehavior = 'smooth';
 }
